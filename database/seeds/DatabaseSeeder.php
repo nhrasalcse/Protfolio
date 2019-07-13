@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
             'permanent_address'=>'Aynatoli Shahrasti Chandpur-3622',
             'password'=>Hash::make('12345678'),
             'role_id'=>'1',
+			'status'=>'1',
         ]);
     }
 }
