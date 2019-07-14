@@ -20,6 +20,11 @@
                         <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                     </a>
                 </li>
+                <li class="">
+                    <a href="{{route('profilebasic')}}">
+                        <i class="fa fa-dashboard"></i> <span>Basic Information</span>
+                    </a>
+                </li>
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-share"></i> <span>Multilevel</span>

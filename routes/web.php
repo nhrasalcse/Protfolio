@@ -49,4 +49,8 @@ Route::group(['middleware'=>'auth'],function () {
     Route::get('/user/Create','UserController@create')->name('user.create');
     Route::post('/user/Store','UserController@store')->name('user.insert');
     Route::get('/user/Status/{id}','UserController@status')->name('user.status');
+
+    // profile basic info //
+    Route::get('/profile/info','ProfileBasicController@index')->name('profilebasic');
+    Route::post('/profile/Store/Info','ProfileBasicController@store')->name('profilebasic.insert');
 });
